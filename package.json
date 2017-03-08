@@ -1,0 +1,52 @@
+{
+  "name": "ipld-torrent",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "aegir-test",
+    "test:browser": "aegir-test --env browser",
+    "test:node": "aegir-test --env node",
+    "lint": "aegir-lint",
+    "release": "aegir-release",
+    "release-minor": "aegir-release --type minor",
+    "release-major": "aegir-release --type major",
+    "build": "aegir-build",
+    "coverage": "aegir-coverage",
+    "coverage-publish": "aegir-coverage publish"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ipld/js-ipld-torrent.git"
+  },
+  "keywords": [
+    "IPFS"
+  ],
+  "author": "David Dias <daviddias@ipfs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipld/js-ipld-torrent/issues"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=3.0.0"
+  },
+  "homepage": "https://github.com/ipld/js-ipld-torrent",
+  "dependencies": {
+    "async": "^2.1.4",
+    "bencode": "^0.11.0",
+    "cids": "~0.4.1",
+    "parse-torrent-file": "^4.0.1"
+  },
+  "devDependencies": {
+    "aegir": "^10.0.0",
+    "chai": "^3.5.0"
+  },
+  "contributors": [
+    "David Dias <daviddias.p@gmail.com>"
+  ]
+}
