@@ -37,14 +37,17 @@
   },
   "homepage": "https://github.com/ipld/js-ipld-torrent",
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^2.1.5",
     "bencode": "^0.11.0",
-    "cids": "~0.4.1",
-    "parse-torrent-file": "^4.0.1"
+    "cids": "^0.4.1",
+    "multihashing-async": "^0.4.3",
+    "parse-torrent-file": "^4.0.1",
+    "traverse": "^0.6.6"
   },
   "devDependencies": {
     "aegir": "^10.0.0",
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "ipfs-block": "^0.5.5"
   },
   "contributors": [
     "David Dias <daviddias.p@gmail.com>"
