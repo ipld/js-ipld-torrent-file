@@ -30,6 +30,8 @@ exports.resolve = (block, path, callback) => {
     const parts = path.split('/')
     const val = traverse(node).get(parts)
 
+    console.log(node)
+
     if (val) {
       // TODO if it is a link to a piece, return a CID of a raw block
       return callback(null, {

@@ -65,6 +65,10 @@ Loading this module through a script tag will make the `IpldTorrent` obj availab
 const torrent = require('ipld-torrent')
 ```
 
+## BitTorrent Documentation
+
+- [File Structure](https://wiki.theory.org/BitTorrentSpecification#Metainfo_File_Structure)
+
 ## Maintainers
 
 [@diasdavid](https://github.com/diasdavid)

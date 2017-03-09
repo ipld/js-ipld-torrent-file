@@ -36,7 +36,13 @@ describe('IPLD format resolver (local)', () => {
       })
     })
 
-    it.skip('path within scope that is not a link', (done) => {})
+    it.skip('path within scope that is not a link', (done) => {
+      resolver.resolve(block, '/createdBy', (err, result) => {
+        expect(err).to.not.exist
+        expect(result.value).to.eql('')
+        done()
+      })
+    })
 
     it.skip('path within scope that is a link', (done) => {})
 
