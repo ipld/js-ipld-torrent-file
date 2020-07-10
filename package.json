@@ -27,7 +27,6 @@
   "devDependencies": {
     "aegir": "^25.0.0",
     "chai": "^4.2.0",
-    "create-torrent": "^4.4.2",
     "dirty-chai": "^2.0.1"
   },
   "directories": {
